@@ -68,6 +68,18 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "year": {
+      "type": "integer",
+      "required": true
+    },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "month": {
+      "type": "string",
+      "required": true
     }
   }
 }
