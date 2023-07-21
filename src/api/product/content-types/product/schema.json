@@ -55,6 +55,34 @@
     "discount": {
       "type": "integer",
       "required": true
+    },
+    "measures": {
+      "type": "json",
+      "required": true
+    },
+    "additional": {
+      "type": "json",
+      "required": true
+    },
+    "stock": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
